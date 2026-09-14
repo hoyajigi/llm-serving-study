@@ -12,6 +12,7 @@ LLM 서빙·최적화 스터디에 참여하며 주차별로 정리한 글입니
 | 4주차 | [추측적 디코딩은 배칭과 같은 레버를 당긴다](week4/README.md) |
 | 5주차 | [양자화로 처리량이 2.7배 올랐는데 GPU는 더 빨라지지 않았다](week5/README.md) |
 | 6주차 | [동시 요청을 5개 보냈는데 처리량은 정확히 4배였다](week6/README.md) |
+| 7주차 | [캐시 적중률은 올랐는데 꼬리 지연이 5배 더 늘었다](week7/README.md) |
 
 1주차: 모델 서빙 개요, 디코더 온리 트랜스포머, KV 캐시, GQA, prefill/decode
 2주차: 단일/멀티 모델 서빙 시스템 설계, 프로세스 격리, 성능 지표(E2E/TTFT/ITL, RPS/TPS)
@@ -19,3 +20,4 @@ LLM 서빙·최적화 스터디에 참여하며 주차별로 정리한 글입니
 4주차: 추측적 디코딩, TP/PP 멀티 GPU, prefill-decode 분리, 고급 KV 캐싱
 5주차: Qwen3-14B + vLLM 실전 튜닝, 양자화·prefix caching 벤치마크 해석, 멀티 GPU 확장
 6주차: AWS Trainium + vLLM on EKS 워크숍, Neuron 컴파일과 배치 상한, llmperf 지표 해석
+7주차: llm-d + Envoy AI Gateway, prefix-cache-aware 라우팅의 적중률·지연 트레이드오프
